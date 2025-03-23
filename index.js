@@ -7,11 +7,11 @@ if (mainElement) {
 // Create a new <h1> element
 const newHeader = document.createElement('h1');
 
-// Set the id of the <h1> element to 'victory'
+// Set the id of the new <h1> element to 'victory'
 newHeader.id = 'victory';
 
-// Set the inner HTML of the <h1> element
-newHeader.innerHTML = 'YOUR-NAME is the champion'; // Replace YOUR-NAME with your actual name
+// Set the inner HTML of the new <h1> element to include your name and "is the champion"
+newHeader.innerHTML = "YOUR-NAME is the champion"; // Replace YOUR-NAME with your actual name
 
-// Append the <h1> element to the DOM
+// Append the new <h1> element to the body (or another appropriate parent element)
 document.body.appendChild(newHeader);
